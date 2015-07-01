@@ -12,7 +12,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.addFiles('js-weighted-list/js-weighted-list.js');
+  api.addFiles('js-weighted-list.js');
   api.export('WeightedList');
 });
 
